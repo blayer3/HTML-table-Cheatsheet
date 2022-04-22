@@ -1,0 +1,35 @@
+body {
+    background-color: #dac3f7;
+    font-family: monospace;
+}
+
+h1 {
+    color: #8f40f5;
+    text-align: center;
+}
+
+h2 {
+    color: #9967dc;
+}
+
+table {
+    width: auto;
+}
+
+/*define colour for headers*/
+th {
+    background-color: #aa84da;
+    text-align: center;
+  }
+
+/*define colour for every even row*/
+tr:nth-child(even) {
+    background-color: #cbb1fb;
+  }
+
+  /*define colour for every odd row*/
+tr:nth-child(odd) {
+    background-color: #b187f5;
+  }
+
+
